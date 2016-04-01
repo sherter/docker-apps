@@ -20,4 +20,4 @@ RUN set -xe \
 
 EXPOSE "5232"
 USER "radicale"
-CMD ["radicale", "--foreground"]
+ENTRYPOINT ["radicale"]
