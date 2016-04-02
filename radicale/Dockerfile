@@ -21,3 +21,4 @@ RUN set -xe \
 EXPOSE "5232"
 USER "radicale"
 ENTRYPOINT ["radicale"]
+CMD ["--foreground"]
